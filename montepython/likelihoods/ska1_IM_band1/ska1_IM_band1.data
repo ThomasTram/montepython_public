@@ -15,8 +15,8 @@ ska1_IM_band1.fiducial_file  = "ska1_IM_band1_fiducial.dat"
 # bias parameters (beta, amplitude:0 and z-scaling:1, =1 means no deviation to fit model)
 # Omega_HI as a function of redshift, alpha_HI controls redshift dependence
 # see Sprenger et al. 1801.08331 for details
-ska1_IM_band1.use_nuisance = ['sigma_NL','beta_0^IM','beta_1^IM','Omega_HI0','alpha_HI']
-#ska1_IM_band1.use_nuisance = ['sigma_NL','beta_0^IM','beta_1^IM']
+#ska1_IM_band1.use_nuisance = ['sigma_NL','beta_0^IM','beta_1^IM','Omega_HI0','alpha_HI']
+ska1_IM_band1.use_nuisance = ['sigma_NL','beta_0^IM','beta_1^IM']
 
 # number of bins of the survey (step width ~0.1)
 ska1_IM_band1.nbin  = 22
