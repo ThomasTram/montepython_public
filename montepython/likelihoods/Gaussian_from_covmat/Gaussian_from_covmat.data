@@ -1,0 +1,5 @@
+# For base2018TTTEEE:
+Gaussian_from_covmat.use_nuisance = ['A_cib_217', 'xi_sz_cib', 'A_sz', 'ps_A_100_100', 'ps_A_143_143', 'ps_A_143_217', 'ps_A_217_217', 'ksz_norm', 'gal545_A_100', 'gal545_A_143', 'gal545_A_143_217', 'gal545_A_217', 'galf_TE_A_100', 'galf_TE_A_100_143', 'galf_TE_A_100_217', 'galf_TE_A_143', 'galf_TE_A_143_217', 'galf_TE_A_217', 'calib_100T', 'calib_217T', 'A_planck']
+Gaussian_from_covmat.covmat_file = 'covmat/base2018TTTEEE.covmat'
+Gaussian_from_covmat.bestfit_file = 'bestfit/base2018TTTEEE.bestfit'
+Gaussian_from_covmat.derived_parameters = ['z_reio', 'Omega_Lambda', 'YHe', 'H0', 'A_s', 'sigma8']
